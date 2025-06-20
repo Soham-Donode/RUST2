@@ -54,7 +54,7 @@ fn labeling_loops(){
         }
         loop {
             if num > 80 {
-                break 'my_loop 60;// this break state ment will break the loop labeled as name 
+                break 'my_loop 60;// this break statement will break the loop labeled as name 
             }
         }
     }; 
@@ -70,7 +70,7 @@ fn learning_while(){
 }
 
 fn learning_for(){
-    let arr = [1 ,2 ,3 ,4 ,5 ,89]; 
+    let arr: [i32; 6] = [1 ,2 ,3 ,4 ,5 ,89]; 
     for ele in arr {
         println!("{ele}"); 
     }

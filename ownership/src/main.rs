@@ -29,7 +29,7 @@ fn takes_and_gives_back(s : String) -> String {
 }
 fn second() {
     let s1 = String::from("i am s1");
-    let s2 = s1.clone(); // copy in heap is created , without clone the s2 = s1 movies data from s1 to s2 
+    let s2 = s1.clone(); // copy in heap is created , without clone the s2 = s1 moves data from s1 to s2 
     print!("value of s1 {s1} and value of s2{s2}");
 }
 
